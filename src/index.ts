@@ -1,7 +1,7 @@
 require('dotenv').config()
 import createError, { HttpError } from 'http-errors'
 import Express, { application, Request, Response } from 'express'
-import createConnection from '../configs/mongodb.config'
+import createConnection from './configs/mongodb.config'
 import cors from 'cors'
 import bodyParser from 'body-parser'
 
